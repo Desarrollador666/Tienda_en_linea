@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+
+		<head>
+			<title>titulo de nuestra paginca con bootstrap 4</title>
+			<link rel="stylesheet" type="text/css" href="estilo_eventos.css">
+			<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, inimun-scale=1.0">
+			<meta charset="utf-8">
+			<!-- <li
+				nk href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+			<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		</head>
+		<style type="text/css">
+			.color{
+				color: #000;
+			}
+		</style>
+
+<body>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+
+					<header>
+						<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+							<div class="container">
+								<a href="#" class="navbar-brand">Navbar</a>
+								<button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menunavegacion" aria-controls="navbar" aria-expanded="false" aria-label="Menunavegacion">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+								<!-- <button class="navbar-toogler" type="button" data-bs-toggle="collapse" data-bs-target="#menunavegacion" aria-expanded="false" aria-label="Altermar menu"> -->
+									<span class="navbar-toogler-icon"></span> 
+								</button>
+								<div class="collapse navbar-collapse" id="menunavegacion">
+									<ul class="navbar-nav mr-auto">
+										<li class="nav-item">
+											<a href="#" class="nav-link">Inicio</a>
+										</li>
+										<!-- ELemento desplegable -->
+										<li class="nav-item">
+											<!-- <a href="#" class="nav-link dropdown-toogle" 
+											id="navbarDropdown" data-bs-toggle="dropdown"
+											aria-haspopup="true" aria-expanded="false">Productos
+											</a>
+											<div class="dropdown-menu" aria-labellebdy="navbarDropdown">
+												<a href="#" class="dropdown-item">Computadoras</a>
+												<a href="#" class="dropdown-item">Lap tops</a>
+												<a href="#" class="dropdown-item">Smartphones</a>
+
+												<a href="#" class="dropdown-item">Drones</a>
+												<a href="#" class="dropdown-item">Accesorios</a>
+											</div>-->
+
+
+											 <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a> 
+											<div class="dropdown-menu" aria-labellebdy="menu-gategorias">
+											<a href="#" class="dropdown-item">Computadoras</a>
+												<a href="#" class="dropdown-item">Lap tops</a>
+												<a href="#" class="dropdown-item">Smartphones</a>
+												<a href="#" class="dropdown-item">Drones</a>
+												<a href="#" class="dropdown-item">Accesorios</a>
+					
+					</div>
+										</li>
+										<li class="nav-item">
+											<a href="#" class="nav-link">Contacto</a>
+										</li>
+									</ul>
+										<form class=" d-flex form-inline my-2 my-lg-0">
+					<input type="text" class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Buscar" name="">
+					<button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
+				</form>
+								</div>
+							</div>
+						</nav>
+					</header>
+					<!-- <h3>Menu</h3> 
+					<ul class="nav ">
+						<li class="nav-item active">
+							<a href="#" class="nav-link">Inicio</a>
+						</li>
+						<li class="nav-item">
+							<a href="#" class="nav-link">Inicio</a>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="nav-link">Inicio</a>
+						</li>
+						<li class="nav-item ">
+							<a href="#" class="nav-link">Inicio</a>
+						</li>
+					</ul>-->
+<!-- --------------------------------------------------------------------- -->
+		
+			<main class="container">
+				<div class="row-lg-8 mt-5 d-flex justify-content-center">
+					<div class="col-lg-8 col-md-6">
+
+
+						<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="b
+    utton" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/w1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="color">Celular</h5>
+        <p class="color">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/w2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="color">Second slide label</h5>
+        <p class="color">Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="img/w6.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="color">Camara de alta fidelidad</h5>
+        <p class="color">Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+			<!--divs row y col-->
+		</div>
+	</div>
+		<div class="row">
+			<div class="col-12">
+				<div class="py-4 border-bottom">
+					<h1 class="text-center">Productos</h1>
+					
+				</div>				
+			</div>
+			
+		</div>
+	<div class="row py-4">
+		<div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w7.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Iphone</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w11.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Retro computer</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w8.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora todo en uno</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w12.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora moderna</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w13.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora moderna</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w14.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora moderna</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w15.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora moderna</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w16.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora moderna</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w17.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora moderna</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w18.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora moderna</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w19.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora moderna</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div><div class="col-lg-3 col-md-6 col-ms-12 mb-4">
+			<div class="card">
+				<img src="img/w20.jpg" class="card-img-top">
+				<div class="card-body">
+					<h3 class="card-tittle">Computadora moderna</h3>
+					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+					<a href="#" class="btn btn-sm btn-primary">Comprar</a>
+					<a href="#" class="btn btn-sm btn-secondary">Detalles</a>
+				</div>
+				
+			</div>
+			
+		</div>
+		
+	</div>
+				
+			</main>
+			<footer class="container">
+				<div class="row border-top py-5">
+					<div class="col">
+						<h3 class="lead">Pablo Aguirre</h3>
+						<a href="#" class="btn btn-link">Acerca de</a>
+						<a href="#" class="btn btn-link">Contacto</a>
+					</div>
+
+					<div class="col text-end">
+						<a href="#" class="btn btn-link ">Subir en pagina</a>
+						
+					</div>
+					
+				</div>
+				
+			</footer>
+					
+
+		
+
+
+	<script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+	<script type="text/javascript" src="js/popper.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+	<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script> -->
+</body>
+</html>
